@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GymManagement.Infrastructure
+namespace GymManagement.Domain.Entities
 {
-    public class Class1
+    public class Campaign:BaseEntity
     {
+        //Paketler
     }
 }

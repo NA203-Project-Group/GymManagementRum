@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GymManagement.Domain.Entities
 {
-    public class Worker :Employee
+    public class Worker :EmployeeDetail
     {
        
         public int WorkerContractId { get; set; }

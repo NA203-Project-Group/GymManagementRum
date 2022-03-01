@@ -27,6 +27,7 @@ namespace GymManagement.WebAPI
         {
 
             services.AddControllers();
+           // services.AddInfrastructure()
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "GymManagement.WebAPI", Version = "v1" });
