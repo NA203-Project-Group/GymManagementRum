@@ -27,11 +27,18 @@ namespace GymManagement.WebAPI
         {
 
             services.AddControllers();
-           // services.AddInfrastructure()
+
+
+
+            
+            //services.AddInfrastructureServices();// biz yazdýk
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "GymManagement.WebAPI", Version = "v1" });
             });
+
+            //blazor?? mvc ne yazarsan addmvc mvc çaðýrýyo
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

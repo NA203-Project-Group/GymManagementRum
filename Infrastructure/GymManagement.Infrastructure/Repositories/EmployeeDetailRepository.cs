@@ -4,9 +4,9 @@ using GymManagement.Infrastructure.Contexts;
 
 namespace GymManagement.Infrastructure.Repositories
 {
-    public class EmployeeRepository : RepositoryBase<EmployeeDetail>, IEmployeeDetailRepository
+    public class EmployeeDetailRepository : RepositoryBase<EmployeeDetail>, IEmployeeDetailRepository
         {
-            public EmployeeRepository(GymManagementDBContext context) : base(context)
+            public EmployeeDetailRepository(GymManagementDBContext context) : base(context)
             {
 
             }

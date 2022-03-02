@@ -31,6 +31,7 @@ namespace GymManagement.Infrastructure.Repositories
         {
 
             return _dbSet.ToList();
+
         }
 
         public List<T> Get(Expression<Func<T, bool>> filter = null)

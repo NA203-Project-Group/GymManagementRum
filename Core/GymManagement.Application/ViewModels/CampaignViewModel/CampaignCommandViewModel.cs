@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GymManagement.Domain.Entities
+namespace GymManagement.Application.ViewModels.CampaignViewModel
 {
-    public class Campaign:BaseEntity
+   public class CampaignCommandViewModel
     {
-        //Paketler
         public string CampaignName { get; set; }
         public double Price { get; set; }
         public short MonthlyPeriod { get; set; }
-        public List<Member> Members { get; set; }
+        public DateTime CreatedDate { get; set; }
+
     }
 }
