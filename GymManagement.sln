@@ -9,15 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfraStructure", "InfraStru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{B4ED793F-E547-46BB-96EC-ABD72C1B2540}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagement.Domain", "Core\GymManagement.Domain\GymManagement.Domain.csproj", "{D0DB2F18-2A6C-4B15-87E5-EBF3F1C9C6F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GymManagement.Domain", "Core\GymManagement.Domain\GymManagement.Domain.csproj", "{D0DB2F18-2A6C-4B15-87E5-EBF3F1C9C6F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagement.Application", "Core\GymManagement.Application\GymManagement.Application.csproj", "{693A4E57-3CBF-4A68-949D-326121C6D238}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GymManagement.Application", "Core\GymManagement.Application\GymManagement.Application.csproj", "{693A4E57-3CBF-4A68-949D-326121C6D238}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagement.Infrastructure", "Infrastructure\GymManagement.Infrastructure\GymManagement.Infrastructure.csproj", "{F330E55F-64F3-4B7D-8BD0-032BA9C59F01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GymManagement.Infrastructure", "Infrastructure\GymManagement.Infrastructure\GymManagement.Infrastructure.csproj", "{F330E55F-64F3-4B7D-8BD0-032BA9C59F01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagement.WebAPI", "Presentation\GymManagement.WebAPI\GymManagement.WebAPI.csproj", "{C0C660A7-50AC-44B7-844F-A21AC3194406}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependenciesContainer", "DependenciesContainer", "{E1752821-C3AC-43DC-9C5A-35B3A4322E1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GymManagement.WebAPI", "Presentation\GymManagement.WebAPI\GymManagement.WebAPI.csproj", "{C0C660A7-50AC-44B7-844F-A21AC3194406}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,7 +48,6 @@ Global
 		{693A4E57-3CBF-4A68-949D-326121C6D238} = {D6C2F3B5-0201-440A-A236-47A02FEE9905}
 		{F330E55F-64F3-4B7D-8BD0-032BA9C59F01} = {29C84A84-E2DD-4872-B98E-9F56255F61F5}
 		{C0C660A7-50AC-44B7-844F-A21AC3194406} = {B4ED793F-E547-46BB-96EC-ABD72C1B2540}
-		{E1752821-C3AC-43DC-9C5A-35B3A4322E1C} = {29C84A84-E2DD-4872-B98E-9F56255F61F5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {95B5FF4F-E8A0-40D8-9116-594F55601DF8}

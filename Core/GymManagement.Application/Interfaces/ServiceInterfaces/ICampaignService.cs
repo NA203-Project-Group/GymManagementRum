@@ -15,7 +15,8 @@ namespace GymManagement.Application.Interfaces.ServiceInterfaces
         List<CampaignQueryViewModel> GetAll();//unitof alınca tüm repositorylari almış alıyoz??
         CampaignQueryViewModel GetById(int id);
         bool Create(CampaignCommandViewModel model );
-        bool Update(CampaignCommandViewModel model);
+        bool Update(CampaignCommandViewModel model, int id);
+        bool Delete( int id);
 
     }
 }

@@ -1,3 +1,5 @@
+using GymManagement.Application.DependencyContainer;
+using GymManagement.Infrastructure.DependencyContainer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -27,11 +29,8 @@ namespace GymManagement.WebAPI
         {
 
             services.AddControllers();
-
-
-
-            
-            //services.AddInfrastructureServices();// biz yazdýk
+            services.AddApplicationServices();
+            services.AddInfrastructureServices(Configuration);// biz yazdýk
 
             services.AddSwaggerGen(c =>
             {

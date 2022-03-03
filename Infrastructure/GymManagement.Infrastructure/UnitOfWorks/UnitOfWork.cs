@@ -18,7 +18,7 @@ namespace GymManagement.Infrastructure.UnitOfWorks
         public IEquipmentRepository Equipments { get; }
         public IExerciseProgramRepository ExercisePrograms { get; }
         public IManagerRepository Managers { get; }
-        public IMemberRepository Members { get; }
+       
         public IMissionRepository Missions { get; }
         public ITrainerRepository Trainers { get; }
         public IWorkerContractRepository WorkerContracts { get; }
@@ -27,7 +27,7 @@ namespace GymManagement.Infrastructure.UnitOfWorks
 
         public UnitOfWork(ICampaignRepository campaigns, IEmployeeDetailRepository employeeDetails,
             IEquipmentRepository equipments, IExerciseProgramRepository exercisePrograms,
-            IManagerRepository managers, IMemberRepository members, IMissionRepository missions,
+            IManagerRepository managers, IMissionRepository missions,
             ITrainerRepository trainers, IWorkerContractRepository workerContracts,GymManagementDBContext context)
         {
             Campaigns = campaigns;
@@ -35,7 +35,7 @@ namespace GymManagement.Infrastructure.UnitOfWorks
             Equipments = equipments;
             ExercisePrograms = exercisePrograms;
             Managers = managers;
-            Members = members;
+           
             Missions = missions;
             Trainers = trainers;
             WorkerContracts = workerContracts;
